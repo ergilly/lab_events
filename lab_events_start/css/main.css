@@ -1,5 +1,5 @@
 body {
-  font-family: Palatino;
+  font-family: monospace;
 }
 
 #new-item-form {
@@ -25,6 +25,9 @@ th {
 }
 tr:nth-child(even) {
   background-color: rgb(204, 255, 186);
+}
+tr:nth-child(odd) {
+  background-color: #f4f4f4;
 }
 td {
   padding: 5px;
