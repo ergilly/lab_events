@@ -1,3 +1,31 @@
 body {
   font-family: Palatino;
 }
+
+#new-item-form {
+  width: 80%;
+}
+
+.container {
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
+.primary {
+  padding-left: 20px;
+}
+
+.buttons {
+  margin-left: 20px;
+
+}
+th {
+  padding: 5px;
+  background-color: #5cda54;
+}
+tr:nth-child(even) {
+  background-color: rgb(204, 255, 186);
+}
+td {
+  padding: 5px;
+}
