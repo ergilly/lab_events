@@ -25,13 +25,3 @@ document.addEventListener('DOMContentLoaded', () => {
     event.reset()
   })
 })
-
-// console.log('form has been submitted');
-//     console.log(event.target.first_name.value);
-//     console.log(event.target.last_name.value);
-//     event.preventDefault();
-//     const firstName = event.target.first_name.value
-//     const lastName = event.target.last_name.value
-//
-//     const resultParag = document.querySelector('#form-result');
-//     resultParag.textContent = `Your name is: ${firstName} ${lastName}`
